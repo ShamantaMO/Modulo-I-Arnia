@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;    
+}
+
+.restaurante{
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    padding: 1em;
+    text-align: center;
+    color: #f4551b;
+}
+
+.pizza{
+    display: flex;
+}
+
+.pizzaria{
+    object-fit: cover; 
+    border-radius: 50%;
+    max-width: 50px;
+}
+
+.bar{
+    display: flex;
+}
+
+.brooklyn{
+    object-fit: cover; 
+    border-radius: 50%;
+    max-width: 50px;
+}
+
+.burguer{
+    display: flex;
+}
+
+.carilas{
+    object-fit: cover; 
+    border-radius: 50%;
+    max-width: 50px;
+}
+
+.lug{
+    display: flex;
+}
+
+.lugs{
+    object-fit: cover; 
+    border-radius: 50%;
+    max-width: 50px;
+}
+
+.esfirra{
+    display: flex;
+}
+
+.casa-da-esfirra{
+    object-fit: cover; 
+    border-radius: 50%;
+    max-width: 50px;
+}

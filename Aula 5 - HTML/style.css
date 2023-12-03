@@ -1,0 +1,8 @@
+.exercicio1 {
+    width: 150px;
+    height: 100px;
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 2px blue dashed;
+    padding-left: 10px;
+}

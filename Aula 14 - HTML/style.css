@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;    
+}
+td{
+    padding: 5px 0;
+}
+
+.quitado{
+    background-color: #c7ecd4; 
+    color: #00c247;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+.pendente{
+    background-color: #fdcdcd; 
+    color: #ff0000;
+    border-radius: 10px;
+    text-align: center; 
+    padding: 10px 0;   
+    margin-right: 10px;
+}
+
+
+tr:first-child{
+    background-color: #0ca2ed !important;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: #fcfcfc;
+}
+tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+.tabela{
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+.cabecalho td:first-child{
+    border-top-left-radius:0.5em;
+    border-bottom-left-radius: 0.5em;
+    padding: 10px;
+    
+}
+.cabecalho td:last-child{
+    border-top-right-radius:0.5em;
+    border-bottom-right-radius:0.5em; 
+}
+
+.valor{
+    margin-right: 10px;
+    
+}
+
+
+.editar{
+    border-radius: 0.5em;
+    border-color: #0ca2ed;
+    color: #0ca2ed;
+    width: 70px;
+    height: 50px;
+    padding: 10px 0;
+}
+.excluir{
+    border-radius: 0.5em;
+    border-color: red;
+    color: red;
+    width: 70px;
+    height: 50px;
+    padding: 10px 0;
+
+}

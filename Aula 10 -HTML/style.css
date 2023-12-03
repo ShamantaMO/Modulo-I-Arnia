@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+}
+.bloco1{
+    background-color: red;
+    
+}
+.bloco2{
+    background-color: blue;
+}
+.bloco3{
+    background-color: yellow;
+}
+.bloco4{
+    background-color: orange;
+}
+.bloco5{
+    background-color: blueviolet;
+}
+.bloco6{
+    background-color: pink;
+}

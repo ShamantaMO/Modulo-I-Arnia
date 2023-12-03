@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.cabecario{
+    background-color: #6950a0;
+    padding: 40px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.titulo-1{
+    color: white;
+    width: 948px;
+    font-size: 32px;
+    font-weight: 700;      
+}
+
+.titulo2{
+    width: 785px;
+    padding: 40px;
+}
+
+.titulo3{    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 40px; 
+    width: 860px;       
+}
+
+.lista{
+    padding: 40px;
+}
+.container-1{
+    position: relative;
+    
+}
+.form{
+    max-width: 335px;
+    border: solid #6950A1 2px;
+    background-color: transparent;
+    padding-bottom: 40px;
+    position: absolute;
+    top: 40px;
+    left: 950px;
+
+}
+
+.formulario-texto{
+    background-color: #1A1033E5;
+    border-radius: 15px;
+    padding: 26px 17px;
+    max-width: 335px;
+}
+
+.titulo-formulario{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.formulario{   
+    padding-left: 17px;
+}
+
+label {
+    margin-bottom: 9px;
+    display: block;
+}
+
+input {
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #6950A1;
+}
+
+input:not(:last-child) {
+    margin-bottom: 9px;
+}
+

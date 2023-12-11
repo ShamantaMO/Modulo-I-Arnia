@@ -1,17 +1,8 @@
 const io = require('../io/io')
 
-const n = []
-const n2 = []
+let n1 = [12,34,56,78,910]
 
-for (let i = 0; i < 10; i++){
-    io.write('Digite um numero')
-    let inf = io.readInt()
-    n.push(inf)
+for(let i = 0; i < n1.length; i++){
+    io.write(`O sucessor do numero ${n1[i]} é ${n1[i]+ 1} `)
+
 }
-
-    for (let i = 0; i < 10; i++){
-        const suc = n[i] + 1 
-        n2.push(suc)
-    }
-
-io.write(n2)

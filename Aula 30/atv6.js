@@ -14,4 +14,4 @@ const produtos = [
     }
 
 const compraTotal = calcularTotalCompra(produtos)
-io.write(compraTotal) 
+io.write(compraTotal.toFixed(2)) 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construtora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="atv.js"></script>
+</head>
+<body>
+    <div id="pagina">
+        <div>
+            <input id="pesquisa" placeholder="Pesquise por uma cidade..." />
+            <button id="botaoCidade" onclick="buscarCidade()">
+                <span><i class=""></i></span>            
+            </button>
+        </div>        
+        <div class="box" id="box">
+            <div class="lupa"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="informacao">
+                <div class="temperatura" id="temperatura"><span></span></div>
+                <div class="descricao">
+                    <div class="condicao" id="condicao"><span></span></div>
+                    <div class="local" id="local"></div> 
+                </div> 
+                <div class="data" id="data"></div>               
+            </div>
+        </div>      
+    </div>
+</body>
+</html>

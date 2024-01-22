@@ -13,8 +13,15 @@ const alterarParagrafo = () => {
     paragrafo.innerHTML = 'Teste'
 }
 
-const alterarParagrafoDivs = () => {
-    const paragrafo = document.getElementById('firt')
-    paragrafo.innerHTML = `
-    <div>`
+document.getElementById("loadStylesButton").addEventListener("click", toggleStyles);
+
+function toggleStyles() {
+    const body = document.getElementById("body");
+    const paragraphs = document.querySelectorAll("p");
+
+    body.classList.toggle("dark-mode");
+    
+    paragraphs.forEach(paragraph => {
+        paragraph.classList.toggle("dark-mode");
+    });
 }
